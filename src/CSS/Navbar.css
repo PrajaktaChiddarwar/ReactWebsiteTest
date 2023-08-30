@@ -1,0 +1,210 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar */
+
+.Navbar nav
+{
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Toggle1
+{
+  width: 5%;
+  background: linear-gradient(to right, rgb(125, 125, 214), rgb(199, 141, 199));
+  margin-top: 0;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.Hicon
+{
+  font-size: 25px;
+  font-weight: bold;
+}
+/* Banner */
+.carousel
+{
+  margin-top: 20px;
+  width: 87%;
+  align-items: center;
+  margin-left: 5rem;
+  cursor: pointer;
+}
+.image
+{
+  width: 100%;
+  height:auto;
+}
+.signPop
+{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.auth-container {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+margin-left: -820px;
+margin-top: 1rem;
+  }
+  
+  .auth-form {
+    width: 80%;
+    height: 90%;
+    justify-content: flex-start;
+    align-items: flex-start;   
+
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .inp {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .Map
+  {
+      width: 40%;
+      background: #fff;
+      box-shadow: 0 5px 0.2rem 5px rgba(0, 0, 0, 0.3);
+       margin-top: 50px;
+      border-radius: 20px;
+      z-index: 1; 
+  } 
+  
+  .Hicon,
+  .Hiconclose {
+    display: inline-block;
+    font-size: 24px; 
+    color: #333;    
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    transition: color 0.3s;
+  }
+  
+  .Hicon:hover,
+  .Hiconclose:hover {
+    color: #ff0000;
+  } 
+  
+  
+ 
+  .Toggle1 {
+      display: inline-block;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      transition: opacity 0.3s;
+  
+    }
+    
+    .Toggle1:hover {
+      opacity: 0.7;
+    }
+    
+    .Toggle1.show-close {
+      padding: 0; 
+    }
+    
+    .Icon {
+      font-size: 24px; 
+      color: #333;    
+    }
+    
+    .head
+    {
+      display: flex; 
+      justify-content: left;
+      align-items: center;
+    }
+
+    
+
+@media (max-width: 768px) {
+  .Navbar nav {
+    flex-direction: column;
+  }
+
+  .Toggle1 {
+    width: 10%;
+  }
+
+  .carousel {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .auth-container {
+    width: 60%;
+  }
+
+  .Map {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .Navbar nav {
+    padding: 10px;
+   
+  }
+
+  .Toggle1 {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+  
+    margin-right: 20rem;
+  }
+
+  .Hicon,
+  .Hiconclose {
+    font-size: 20px;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+
+  .auth-container {
+    width: 80%;
+  }
+
+  .Map {
+    width: 100%;
+  }
+}

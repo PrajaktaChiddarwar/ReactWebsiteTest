@@ -1,0 +1,52 @@
+
+
+.iframe_div {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .if {
+    width: 100%; 
+    max-width: 500px; 
+    height: 450px; 
+    margin: 10px;
+  }
+  
+  .Tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  
+  
+  .Tab
+{
+    width:15rem;
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(125, 125, 214), rgb(199, 141, 199));
+    border-radius: 50px;
+    padding: 5px;
+}
+  @media (max-width: 768px) {
+    .iframe_div {
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center;
+    }
+    .if{
+        width: 100%; 
+        height: 200px; 
+        margin: 10px;
+      }
+      .Tab
+      {
+          width:10rem;
+          
+      }
+  }
+  

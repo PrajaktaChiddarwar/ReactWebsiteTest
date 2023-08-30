@@ -1,0 +1,145 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-resume {
+  width: 100%;
+  height: auto;
+  background-color: #dae8f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-section {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  background: #fff;
+  display: grid;
+  margin-top: 1.2rem;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.2rem;
+}
+
+.resume-section .left {
+  position: relative;
+  background: #001347;
+  padding: 40px;
+}
+
+.resume-section .right {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+}
+
+.imgBox img {
+  width: 180px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.profileText .imgBox {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.profileText h4 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.profileText h4 span {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.contactinfo {
+  color: #fff;
+  margin-left: 0;
+  padding-top: 2rem;
+}
+
+.contactinfo .title {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.contactinfo ul {
+  position: relative;
+}
+
+.contactinfo ul li {
+  list-style: none;
+  position: relative;
+  margin: 9px 0;
+  cursor: pointer;
+}
+
+.contactinfo ul li .icons i {
+  display: inline-block;
+  margin-left: -50px;
+  padding-left: 0;
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+}
+
+.contactinfo ul li .icons p {
+  margin-top: -24px;
+}
+
+.contactinfo ul li .text {
+  font-weight: 300;
+}
+
+.eductaion ul li {
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.skills .skillset {
+  font-weight: 300;
+  display: block;
+  margin: 10px 0;
+}
+
+.edu-sec {
+  color: black;
+}
+
+.edu-sec p {
+  margin: 0;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .resume-section {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-section .right,
+  .resume-section .left {
+    padding: 20px;
+  }
+
+  .imgBox img {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}

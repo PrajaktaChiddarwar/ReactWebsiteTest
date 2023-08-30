@@ -1,0 +1,107 @@
+
+ 
+.Hicon,
+.Hiconclose {
+  display: inline-block;
+  font-size: 24px; 
+  color: #333;    
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+  transition: color 0.3s;
+}
+
+.Hicon:hover,
+.Hiconclose:hover {
+  color: #ff0000;
+} 
+
+
+
+  
+  .Toggle1:hover {
+    opacity: 0.7;
+  }
+  
+  .Toggle1.show-close {
+    padding: 0; 
+  }
+  
+  .Icon {
+    font-size: 24px; 
+    color: #333;    
+  }
+  
+  .head
+  {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  } */
+
+  /* Common styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Default styles */
+.Map {
+  width: 40%;
+  background: #fff;
+  box-shadow: 0 5px 0.2rem 5px rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.Hicon,
+.Hiconclose {
+  display: inline-block;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+  transition: color 0.3s;
+}
+
+.Hicon:hover,
+.Hiconclose:hover {
+  color: #ff0000;
+}
+
+.Toggle1:hover {
+  opacity: 0.7;
+}
+
+.Toggle1.show-close {
+  padding: 0;
+}
+
+.Icon {
+  font-size: 24px;
+  color: #333;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .Map {
+    width: 80%;
+  }
+
+  .Hicon,
+  .Hiconclose {
+    font-size: 20px;
+  }
+}
